@@ -1,0 +1,30 @@
+Created by Guido van Rossum;  Released in 1991.
+
+used for : web developemnt (server side),
+           software development
+           mathematics and system scripting.
+           
+works on : different platforms (windows, Mac, Linux, Raspberry Pi, Etc)
+
+python syntax = English Language
+
+runs on = interpreter system - code is executed immediately
+
+python treated as - procedural way, object-oriented way or functional way
+procedural programming - is derived from structured programming ex: BASIC, C, FORTRAN, Java Pascal 
+Object oriented programming - OOPS defines data type of a data structure  + types of operations(functions) applied to the daa structure.
+functional programming - style of building the structure and elements of computer programs - that treats computation
+as the evaluation of mathematical functions and avoids changing state and mutable data.
+Process of building software by composing pure functions, avoiding shared state, mutable data and side-effects.
+It is declarative rather than imperative and application state flows through pure functions.
+
+
+python syntax compared to other programming languages
+Python was designed for readability, and has some similarities to the English language with influence from mathematics
+Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses
+Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose
+
+
+Python Indentation:
+spaces at the beginning of a code line
+identation = for readability 

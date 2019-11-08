@@ -1,0 +1,5 @@
+x = 8
+y = "number"
+  print(x)
+  print(y)
+  

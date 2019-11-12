@@ -42,3 +42,18 @@ A variable name can only contain alpha-numeric characters and underscores (A-z, 
 Variable names are case-sensitive (age, Age and AGE are three different variables)
 
 
+Data Types:
+Built-in data types:
+
+Text     -    str
+Numeric  -    int, float, complex
+Sequence -    list, range, tuple
+Mapping  -    dict
+Set      -    set, frozenset
+Boolean  -    bool
+Binary   -    bytes, bytearray, memoryview
+
+
+
+
+

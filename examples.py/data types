@@ -1,0 +1,16 @@
+x = 5         # int
+x = 'swathi'  # str
+x = 50.9      # float
+x = 66sk      # complex
+x = ["orange", "blue", "pink"] # list
+x = ("orange", "blue", "pink") # tuple
+x = range(7)  # range
+x = {"name" : "swathi", "dob" : "14/06/1984"}  # dict
+x = {"orange", "blue", "pink"}  # set
+x = frozenset({"orange", "blue", "pink"}) # frozenset
+x = True  # bool
+x = b"Hello" # bytes
+x = bytearray(7)  # bytearray
+x = memoryview(bytes(7)) # memoryview
+
+print(type(x))

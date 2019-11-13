@@ -1,0 +1,93 @@
+# Strings as arrays
+
+a = "Hello World"
+print(a[1])
+
+# slicing
+
+b = (b[2:5])
+print(b[2:5])
+
+# Negative indexing
+b = "Hello world"
+print(b[-5:-2])
+
+#String Length
+a = "Hello world"
+print(len(a))
+
+# string methods
+a = "   Hello World    "
+print(a.strip())
+
+# string lower
+a= "Hello, world"
+print(a.lower())
+
+print(a.upper())
+
+print(a.replace("H", "S"))
+
+print(a.split(","))
+
+# check string
+
+txt = "rain rain go away"
+x = "rain" in txt
+print(x)
+
+x = "rain" not in txt
+print(x)
+
+#string concatenation
+a = "Hello"
+b = "world"
+c = a + b
+print(c)
+
+c = a + "" + b
+print(c)
+
+# String format
+age = 35
+txt = "My name is Swathi, I am " + age
+print(txt)
+
+or
+
+# format()
+age = 35
+txt = "My name is Swathi, and I am {}"
+print(txt.format(age))
+
+
+#arguments
+quantity = 7
+item = 147
+price 84
+myorder = "I want {} peices of item {} for {} dollars"
+print(myorder.format(quantity, itemno, price))
+
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder.format(quantity, itemno, price))
+
+
+# Escape Character
+
+txt = " my name is Swathi studied in \" Uppsala University \" from Sweden, Europe. "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

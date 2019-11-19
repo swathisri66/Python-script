@@ -1,0 +1,32 @@
+a = 77
+b = 66
+if a > b:
+  print ("b is greater than a")
+ else:
+  print ("a is greater than b")
+ 
+# evaluating string and number
+print(bool("Hello")
+print(bool("15")
+
+# evaluating variables
+x= "hello"
+y = 15
+print(bool(x))
+print(bool(y))
+
+# True values
+bool("abc")
+bool(123)
+bool(["sweden", "Norway", "Finland"])
+
+# False values
+bool(False)
+bool(None)
+bool(0)
+boll("")
+bool(())
+bool([])
+bool({})
+
+

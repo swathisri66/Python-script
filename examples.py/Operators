@@ -1,0 +1,117 @@
+Python Operators
+
+Arithmetic
+Assignment
+Comparision
+Logical
+Identity
+Memebership
+Bitwise
+
+Python Collections - Arrays
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered and unindexed. No duplicate members.
+Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
+
+List
+
+fruits = ["banana", "apple", "orange"]
+print(fruits)
+
+print(fruits[1]) #
+
+print(fruits[-1])
+
+print(fruits[2:4])
+
+print([:4])
+
+print([2:])
+
+print([-4:-2])
+
+fruits = ["banana", "apple", "orange"]
+fruits[1] = "current"
+print(fruits)
+
+loop through list 
+
+for is used for loop
+
+fruits = ["apple", "banana", "orange"]
+for x in fruits:
+  print(x)
+  
+check if item exist
+
+fruits = ["apple","banana","orange"]
+if "apple" in fruits:
+  print("Yes, 'apple' is in the fruits list")
+  
+fruits =  ["apple","banana","orange"] 
+print(len(fruits))
+
+fruits =  ["apple","banana","orange"]
+fruits.append("guava")
+print(fruits)
+
+
+fruits =  ["apple","banana","orange"]
+fruits.insert(2, "guava")
+print(fruits)
+
+fruits =  ["apple","banana","orange"]
+fruits.remove("apple")
+print(fruits)
+
+fruits =  ["apple","banana","orange"]
+fruits.pop()
+print(fruits)
+
+
+fruits =  ["apple","banana","orange"]
+del fruits[0]
+print(fruits)
+
+fruits =  ["apple","banana","orange"]
+del fruits
+
+fruits =  ["apple","banana","orange"]
+fruits.clear()
+print(fruits)
+
+fruits =  ["apple","banana","orange"]
+pandlutelugu = fruits.copy()
+print(pandlutelugu)
+
+fruits =  ["apple","banana","orange"]
+pandlutelugu = list(fruits)
+print(pandlutelugu)
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3] 
+
+list3 = list1 + list2
+print(list3)
+
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3] 
+for x in list2:
+  list1.append(x)
+print(list1)  
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3] 
+
+list1.extend(list2)
+print(list1)
+
+fruits = (("apple", "banana", "orange"))
+print(fruits)
+
+
+
+
+
